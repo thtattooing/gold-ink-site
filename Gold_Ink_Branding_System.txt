@@ -1,0 +1,490 @@
+
+GOLD INK — BRANDING + MOBILE WEB SYSTEM
+======================================
+
+POSICIONAMENTO DA MARCA
+=======================
+
+Gold Ink não é um tattoo studio genérico.
+Gold Ink é um coletivo artístico contemporâneo.
+
+Uma fusão entre:
+- arte
+- técnica
+- identidade
+- experiência
+- direção visual
+- exclusividade
+
+ESSÊNCIA DA MARCA
+=================
+
+Palavra central:
+CURADORIA
+
+O Gold Ink funciona como uma curadoria de artistas especializados.
+
+Cada artista possui:
+- identidade própria
+- linguagem própria
+- especialidade própria
+
+Mas todos vivem dentro da mesma direção artística sofisticada.
+
+ARTISTAS E DIREÇÕES
+===================
+
+Thiago Henrique
+- Fine Line
+- Fine Art
+- geometria
+- refinamento
+- direção artística
+- estética editorial
+
+Renan Teixeira
+- tradicional
+- tattoo clássica
+- autenticidade
+- cultura tattoo
+
+Pavani
+- preto e cinza
+- contraste
+- profundidade
+- impacto visual
+
+Victor Stoianov
+- colorido
+- expressão artística
+- criatividade
+- linguagem contemporânea
+
+ARQUÉTIPOS DA MARCA
+===================
+
+Primário:
+CRIADOR
+
+Secundário:
+GOVERNANTE
+
+Terciário:
+SÁBIO
+
+SENSAÇÃO EMOCIONAL
+==================
+
+O Gold Ink deve transmitir:
+- silêncio
+- foco
+- arte
+- confiança
+- sofisticação
+- exclusividade
+- profundidade visual
+
+DIREÇÃO VISUAL
+===============
+
+Conceito:
+“Contemporary Tattoo Atelier”
+
+Mistura:
+- editorial premium
+- galeria contemporânea
+- cinema
+- arquitetura moderna
+- direção artística minimalista
+
+PALETA OFICIAL
+===============
+
+BACKGROUNDS
+
+Black Absolute
+#0B0B0B
+
+Warm Black
+#121212
+
+Graphite
+#1F1F1F
+
+Soft Graphite
+#2B2B2B
+
+GOLD SYSTEM
+
+Gold Primary
+#C7A15B
+
+Gold Glow
+#E2BC79
+
+Gold Dark
+#8F6A2E
+
+Gold Transparent
+rgba(199,161,91,0.08)
+
+TEXT COLORS
+
+White Premium
+#F5F2ED
+
+Soft White
+#D8D3CC
+
+Gray Text
+#8A8A8A
+
+SUPPORT COLORS
+
+Wine Accent
+#4A1014
+
+Success
+#3F8A5A
+
+Error
+#C44B4B
+
+TIPOGRAFIA
+===========
+
+FONTES PRINCIPAIS
+
+Canela
+Editorial New
+Bodoni Moda
+
+Uso:
+- headlines
+- hero
+- branding
+- títulos
+
+FONTES SECUNDÁRIAS
+
+Satoshi
+General Sans
+Neue Montreal
+
+Uso:
+- UI
+- menus
+- textos
+- sistema
+
+REGRAS TIPOGRÁFICAS
+===================
+
+Headline:
+- grande
+- elegante
+- com respiro
+- minimalista
+
+Texto:
+- fino
+- sofisticado
+- espaçamento amplo
+
+GRID SYSTEM
+============
+
+Estrutura:
+12 colunas
+
+Características:
+- alinhamentos rígidos
+- composição editorial
+- espaço negativo
+- modularidade
+
+ESPAÇAMENTOS
+=============
+
+XS = 4px
+SM = 8px
+MD = 16px
+LG = 24px
+XL = 40px
+XXL = 72px
+SECTION = 120px
+
+BORDAS
+=======
+
+Radius padrão:
+16px
+
+Radius premium:
+28px
+
+Radius hero:
+40px
+
+GLASS SYSTEM
+=============
+
+Glass Black
+
+Background:
+rgba(255,255,255,0.03)
+
+Blur:
+backdrop-filter: blur(20px)
+
+Border:
+1px solid rgba(255,255,255,0.06)
+
+GLOW SYSTEM
+============
+
+Glow oficial:
+
+box-shadow:
+0 0 20px rgba(199,161,91,0.15),
+0 0 60px rgba(199,161,91,0.08);
+
+IMPORTANTE:
+Glow suave.
+Nunca neon exagerado.
+
+MOTION SYSTEM
+==============
+
+Velocidade:
+Lenta e cinematográfica.
+
+EFEITOS OFICIAIS
+================
+
+- Reveal Fade
+- Smooth Parallax
+- Glow Hover
+- Magnetic Buttons
+- Blur Transition
+- Smooth Scroll
+- Glassmorphism
+- Cinematic Grain
+
+ESTILO DE IMAGEM
+=================
+
+Tratamento visual:
+- contraste médio/alto
+- saturação controlada
+- tons quentes
+- iluminação âmbar cinematográfica
+- sombras profundas
+
+MOBILE FIRST SYSTEM
+====================
+
+Base:
+390x844px
+430x932px
+
+Prioridade:
+iPhone e Android vertical
+
+Conceito:
+Luxury Mobile Editorial
+
+O site deve parecer:
+“um Reels premium interativo”
+
+ESTRUTURA MOBILE
+=================
+
+1. HERO
+--------
+
+Tela cheia.
+Vídeo cinematográfico.
+
+Headline:
+GOLD INK
+Contemporary Tattoo Atelier
+
+Subheadline:
+Um coletivo de artistas especializados em tatuagem autoral.
+
+Botões:
+- Agendar orçamento
+- Conhecer artistas
+
+2. POSICIONAMENTO
+------------------
+
+Texto:
+“Quatro artistas. Quatro linguagens. Uma visão artística.”
+
+Cards:
+- Fine Art / Fine Line — Thiago
+- Tradicional — Renan
+- Preto e Cinza — Pavani
+- Colorido — Victor
+
+3. ARTISTAS
+------------
+
+Cards verticais individuais.
+
+Cada artista deve ter:
+- foto ou vídeo
+- nome
+- especialidade
+- frase curta
+- botão “Ver Portfólio”
+
+4. PORTFÓLIO
+-------------
+
+Formato:
+- carrossel horizontal
+- imagens grandes
+- poucos trabalhos por vez
+- filtros por artista
+
+5. EXPERIÊNCIA GOLD INK
+------------------------
+
+Cards:
+- Atendimento privado
+- Criação autoral
+- Artistas especializados
+- Ambiente premium
+- Higiene e cuidado
+
+6. PROCESSO
+------------
+
+1. Você envia sua ideia
+2. Indicamos o artista ideal
+3. Criamos o projeto
+4. Agendamos sua sessão
+5. Sua arte ganha pele
+
+7. CTA FINAL
+--------------
+
+Headline:
+“Sua próxima tatuagem começa com uma ideia.”
+
+Botão:
+“Falar com o Gold Ink”
+
+REGRAS MOBILE
+===============
+
+TEXTOS
+-------
+
+- frases curtas
+- leitura rápida
+- máximo 4 linhas por bloco
+
+TAMANHOS
+----------
+
+H1 = 48–64px
+H2 = 32–40px
+H3 = 24–28px
+Texto = 15–17px
+Menu = 14px
+Botão = 16px
+
+ESPAÇAMENTO
+------------
+
+Padding lateral = 20px
+Espaço entre blocos = 72px–96px
+Cards = 16px–24px padding
+
+ESTILO MOBILE
+---------------
+
+Fundo:
+#0B0B0B
+
+Cards:
+#151515
+
+Texto:
+#F5F2ED
+
+Cinza:
+#B8B1A8
+
+Dourado:
+#C7A15B
+
+NAVEGAÇÃO
+==========
+
+Header fixo:
+- logo à esquerda
+- botão WhatsApp à direita
+- menu minimalista
+
+EFEITOS MOBILE
+================
+
+- fade suave
+- parallax leve
+- glow dourado
+- cards com blur
+- transições lentas
+- sticky CTA
+- smooth scroll
+
+EVITAR
+=======
+
+- cyberpunk exagerado
+- neon forte
+- site genérico de tattoo
+- excesso de texto
+- animações pesadas
+- visual poluído
+
+VOZ DA MARCA
+==============
+
+Linguagem:
+- refinada
+- artística
+- humana
+- segura
+- minimalista
+
+Não usar:
+- marketing agressivo
+- excesso de gíria
+- visual underground genérico
+
+HEADLINES OFICIAIS
+===================
+
+- Different styles. One artistic vision.
+- Tattoo as artistic experience.
+- Art created with identity.
+- Precision. Expression. Permanence.
+- A contemporary tattoo atelier.
+
+RESUMO FINAL
+==============
+
+O Gold Ink deve parecer:
+- galeria contemporânea
+- atelier premium
+- marca editorial
+- cinema
+- coletivo artístico
+
+E não:
+- tattoo shop comum.
