@@ -23,7 +23,7 @@
 <meta name="twitter:description" content="Coletivo artístico de tatuagem em São Paulo. Arte autoral, atendimento privado.">
 <meta name="twitter:image" content="https://goldink.com.br/og-image.jpg">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":["TattooShop","LocalBusiness"],"@id":"https://goldink.com.br/#business","name":"Gold Ink — Contemporary Tattoo Atelier","description":"Coletivo artístico de tatuagem premium em São Paulo. Quatro artistas especializados, criação autoral e atendimento privado.","url":"https://goldink.com.br","telephone":"+55-11-99999-9999","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressRegion":"SP","addressCountry":"BR"},"priceRange":"$$$$","sameAs":["https://www.instagram.com/goldink.atelier/","https://www.tiktok.com/@goldink.atelier"],"employee":[{"@id":"https://goldink.com.br/#artist-thiago"},{"@id":"https://goldink.com.br/#artist-renan"},{"@id":"https://goldink.com.br/#artist-pavani"},{"@id":"https://goldink.com.br/#artist-victor"}],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Estilos de Tatuagem","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Fine Art e Fine Line"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Tatuagem Tradicional"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Preto e Cinza"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Colorido Contemporâneo"}}]}},{"@type":"Person","@id":"https://goldink.com.br/#artist-thiago","name":"Thiago Henrique","jobTitle":"Tatuador — Fine Art & Fine Line","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/thiagoh_tattoo/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-renan","name":"Renan Teixeira","jobTitle":"Tatuador — Tradicional","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/renan_tattoo/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-pavani","name":"Pavani","jobTitle":"Tatuador — Preto e Cinza","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/pavanistudio/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-victor","name":"Victor Stoianov","jobTitle":"Tatuador — Colorido Contemporâneo","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/victor_stoianov/"}]}
+{"@context":"https://schema.org","@graph":[{"@type":["TattooShop","LocalBusiness"],"@id":"https://goldink.com.br/#business","name":"Gold Ink — Contemporary Tattoo Atelier","description":"Coletivo artístico de tatuagem premium em São Paulo. Quatro artistas especializados, criação autoral e atendimento privado.","url":"https://goldink.com.br","telephone":"+55-11-99999-9999","address":{"@type":"PostalAddress","streetAddress":"R. Hugo Carotini, 241","addressLocality":"São Paulo","addressRegion":"SP","postalCode":"05532-020","addressCountry":"BR"},"priceRange":"$$$$","sameAs":["https://www.instagram.com/tattoo.goldink/","https://www.tiktok.com/@goldink.atelier"],"employee":[{"@id":"https://goldink.com.br/#artist-thiago"},{"@id":"https://goldink.com.br/#artist-renan"},{"@id":"https://goldink.com.br/#artist-pavani"},{"@id":"https://goldink.com.br/#artist-victor"}],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Estilos de Tatuagem","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Fine Art e Fine Line"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Tatuagem Tradicional"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Preto e Cinza"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Colorido Contemporâneo"}}]}},{"@type":"Person","@id":"https://goldink.com.br/#artist-thiago","name":"Thiago Henrique","jobTitle":"Tatuador — Fine Art & Fine Line","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/th.tatuador/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-renan","name":"Renan Teixeira","jobTitle":"Tatuador — Tradicional","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/renanteixeiratattoo/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-pavani","name":"Pavani","jobTitle":"Tatuador — Preto e Cinza","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/pavanitattoo_/"},{"@type":"Person","@id":"https://goldink.com.br/#artist-victor","name":"Victor Stoianov","jobTitle":"Tatuador — Colorido Contemporâneo","worksFor":{"@id":"https://goldink.com.br/#business"},"sameAs":"https://www.instagram.com/vs9_tattoo/"}]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +75,7 @@
    RESET
 ═══════════════════════════════════════ */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{scroll-behavior:smooth;font-size:16px}
+html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
 body{
   background:var(--black);color:var(--white);
   font-family:var(--sans);font-weight:300;line-height:1.6;
@@ -852,6 +852,14 @@ body::after{
 .ft-soc{display:flex;gap:20px;margin-bottom:32px}
 .ft-soc a{font-size:20px;color:var(--gray);transition:color .25s;padding:4px}
 .ft-soc a:active{color:var(--gold)}
+.ft-addr{font-size:12px;color:var(--gray);font-style:normal;line-height:1.75;margin-bottom:28px}
+.ft-addr i{color:var(--gold);font-size:11px;margin-right:5px}
+.ft-artists{display:flex;flex-direction:column;gap:10px;margin-bottom:28px}
+.ft-artist-link{font-size:12px;color:var(--mid);display:flex;align-items:center;gap:7px;transition:color .25s;padding:2px 0}
+.ft-artist-link i{font-size:13px;color:var(--gold)}
+.ft-artist-link:active{color:var(--gold)}
+@media(hover:hover){.ft-artist-link:hover{color:var(--gold)}}
+@media(min-width:600px){.ft-artists{flex-direction:row;flex-wrap:wrap;gap:16px}}
 .ft-copy{font-size:11px;color:rgba(138,138,138,.4);letter-spacing:.05em}
 
 /* ═══════════════════════════════════════
@@ -1085,8 +1093,8 @@ body::after{
 <header id="hdr">
   <a href="#" class="logo" aria-label="Gold Ink">GOLD<b>.</b>INK</a>
   <div class="hdr-r">
-    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site." class="hdr-wa" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>WhatsApp
+    <a href="https://www.instagram.com/tattoo.goldink/" class="hdr-wa" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <i class="fa-brands fa-instagram" aria-hidden="true"></i>Instagram
     </a>
     <button class="mbtn" id="menuBtn" aria-label="Menu" aria-expanded="false">
       <span class="ml"></span><span class="ml"></span><span class="ml"></span>
@@ -1104,9 +1112,8 @@ body::after{
     <a href="#cta"       class="mc">Agendar</a>
   </nav>
   <div class="msoc">
-    <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-    <a href="#" aria-label="TikTok"    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
-    <a href="https://wa.me/5500000000000" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/tattoo.goldink/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@goldink.atelier" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
   </div>
 </div>
 
@@ -1129,8 +1136,8 @@ body::after{
     <p class="hero-sub">Contemporary Tattoo Atelier</p>
     <p class="hero-desc">Arte permanente. Identidade permanente.</p>
     <div class="hero-btns">
-      <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20um%20orçamento." class="btn btn-gold" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>Agendar orçamento
+      <a href="https://www.instagram.com/tattoo.goldink/" class="btn btn-gold" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>Ver no Instagram
       </a>
       <a href="#showcase" class="btn btn-outline">
         Conhecer artistas<i class="fa-solid fa-arrow-down" aria-hidden="true" style="font-size:12px"></i>
@@ -1204,7 +1211,7 @@ body::after{
         <div class="avc-info">
           <h3 class="avc-name">Thiago Henrique</h3>
           <p class="avc-spec">Fine Art · Fine Line · Geometria</p>
-          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@thiagoh_tattoo</p>
+          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@th.tatuador</p>
           <p class="avc-phrase">"Cada traço é uma decisão. Cada linha, uma intenção."</p>
           <button class="btn btn-outline avc-btn open-sheet" data-artist="0">Ver mais <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:11px"></i></button>
         </div>
@@ -1220,7 +1227,7 @@ body::after{
         <div class="avc-info">
           <h3 class="avc-name">Renan Teixeira</h3>
           <p class="avc-spec">Tradicional · Cultura Tattoo</p>
-          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@renan_tattoo</p>
+          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@renanteixeiratattoo</p>
           <p class="avc-phrase">"A autenticidade da tattoo clássica é uma forma de respeito."</p>
           <button class="btn btn-outline avc-btn open-sheet" data-artist="1">Ver mais <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:11px"></i></button>
         </div>
@@ -1236,7 +1243,7 @@ body::after{
         <div class="avc-info">
           <h3 class="avc-name">Pavani</h3>
           <p class="avc-spec">Preto e Cinza · Realismo</p>
-          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@pavanistudio</p>
+          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@pavanitattoo_</p>
           <p class="avc-phrase">"Profundidade não é ausência de cor. É presença de alma."</p>
           <button class="btn btn-outline avc-btn open-sheet" data-artist="2">Ver mais <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:11px"></i></button>
         </div>
@@ -1252,7 +1259,7 @@ body::after{
         <div class="avc-info">
           <h3 class="avc-name">Victor Stoianov</h3>
           <p class="avc-spec">Colorido · Arte Contemporânea</p>
-          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@victor_stoianov</p>
+          <p class="avc-ig"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@vs9_tattoo</p>
           <p class="avc-phrase">"A pele é a tela mais viva que existe."</p>
           <button class="btn btn-outline avc-btn open-sheet" data-artist="3">Ver mais <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:11px"></i></button>
         </div>
@@ -1630,8 +1637,8 @@ body::after{
     <h2 class="cta-t r d1">Sua próxima tatuagem<br>começa com <em>uma ideia.</em></h2>
     <p class="cta-sub r d2">Não é sobre a tatuagem. É sobre quem você quer ser.</p>
     <div class="cta-btns r d3">
-      <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20agendar%20um%20orçamento%20no%20Gold%20Ink." class="btn btn-gold btn-full" target="_blank" rel="noopener noreferrer" style="max-width:340px">
-        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>Falar com o Gold Ink
+      <a href="https://www.instagram.com/tattoo.goldink/" class="btn btn-gold btn-full" target="_blank" rel="noopener noreferrer" style="max-width:340px">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>Falar com o Gold Ink
       </a>
       <a href="#showcase" class="btn btn-outline" style="max-width:340px">Conhecer os artistas</a>
     </div>
@@ -1643,16 +1650,26 @@ body::after{
   <div class="w">
     <p class="ft-logo">GOLD<b>.</b>INK</p>
     <p class="ft-tag">Contemporary Tattoo Atelier · São Paulo</p>
+    <address class="ft-addr">
+      <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+      R. Hugo Carotini, 241 — Instituto de Previdência<br>
+      São Paulo · SP · 05532-020
+    </address>
     <nav class="ft-links" aria-label="Rodapé">
       <a href="#showcase">Artistas</a>
       <a href="#portfolio">Portfólio</a>
       <a href="#process">Como funciona</a>
-      <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">Agendar orçamento</a>
+      <a href="https://www.instagram.com/tattoo.goldink/" target="_blank" rel="noopener noreferrer">Ver no Instagram</a>
     </nav>
+    <div class="ft-artists" aria-label="Artistas">
+      <a href="https://www.instagram.com/th.tatuador/" target="_blank" rel="noopener noreferrer" class="ft-artist-link"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@th.tatuador</a>
+      <a href="https://www.instagram.com/renanteixeiratattoo/" target="_blank" rel="noopener noreferrer" class="ft-artist-link"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@renanteixeiratattoo</a>
+      <a href="https://www.instagram.com/pavanitattoo_/" target="_blank" rel="noopener noreferrer" class="ft-artist-link"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@pavanitattoo_</a>
+      <a href="https://www.instagram.com/vs9_tattoo/" target="_blank" rel="noopener noreferrer" class="ft-artist-link"><i class="fa-brands fa-instagram" aria-hidden="true"></i>@vs9_tattoo</a>
+    </div>
     <div class="ft-soc" aria-label="Redes sociais">
-      <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#" aria-label="TikTok"    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
-      <a href="https://wa.me/5500000000000" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/tattoo.goldink/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@goldink.atelier" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
     </div>
     <p class="ft-copy">&copy; 2025 Gold Ink · Todos os direitos reservados</p>
   </div>
@@ -1665,14 +1682,14 @@ body::after{
   <a href="#hero"      class="bnav-item a" id="bn-home"><i class="fa-solid fa-house"></i><span>Home</span></a>
   <a href="#showcase"  class="bnav-item"   id="bn-art" ><i class="fa-solid fa-users"></i><span>Artistas</span></a>
   <a href="#portfolio" class="bnav-item"   id="bn-pf"  ><i class="fa-solid fa-images"></i><span>Portfolio</span></a>
-  <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20um%20orçamento." class="bnav-item" target="_blank" rel="noopener noreferrer">
-    <i class="fa-brands fa-whatsapp"></i><span>Agendar</span>
+  <a href="https://www.instagram.com/tattoo.goldink/" class="bnav-item" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-instagram"></i><span>Instagram</span>
   </a>
 </nav>
 
 <!-- ▓▓▓ FAB ▓▓▓ -->
-<a id="fab" href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-  <i class="fa-brands fa-whatsapp"></i>
+<a id="fab" href="https://www.instagram.com/tattoo.goldink/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+  <i class="fa-brands fa-instagram"></i>
 </a>
 
 <!-- ▓▓▓ ARTIST BOTTOM SHEET ▓▓▓ -->
@@ -1692,10 +1709,10 @@ body::after{
     <div class="sheet-tags" id="sheetTags"></div>
     <div class="sheet-btns">
       <a href="#" class="btn btn-gold btn-full" target="_blank" rel="noopener noreferrer" id="sheetWA">
-        <i class="fa-brands fa-whatsapp"></i>Agendar com este artista
+        <i class="fa-brands fa-instagram"></i>Enviar mensagem no Instagram
       </a>
       <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer" id="sheetIG">
-        <i class="fa-brands fa-instagram"></i>Ver portfólio no Instagram
+        <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:12px"></i>Ver perfil completo
       </a>
     </div>
   </div>
@@ -1924,10 +1941,10 @@ var shSwipeStartY = 0;
 var shAutoTimer = null;
 
 var ARTISTS = [
-  { name:'Thiago Henrique', spec:'Fine Art · Fine Line · Geometria', badge:'Fine Line', phrase:'"Cada traço é uma decisão. Cada linha, uma intenção."', tags:['Fine Line','Geometria','Fine Art','Editorial'], cls:'avc-th', init:'TH', ig:'thiagoh_tattoo', wa:'Ol%C3%A1!%20Gostaria%20de%20agendar%20com%20o%20Thiago%20Henrique.' },
-  { name:'Renan Teixeira',  spec:'Tradicional · Cultura Tattoo',     badge:'Tradicional', phrase:'"A autenticidade da tattoo clássica é uma forma de respeito."', tags:['Tradicional','Old School','Cultura Tattoo','Clássico'], cls:'avc-rt', init:'RT', ig:'renan_tattoo', wa:'Ol%C3%A1!%20Gostaria%20de%20agendar%20com%20o%20Renan%20Teixeira.' },
-  { name:'Pavani',          spec:'Preto e Cinza · Realismo',         badge:'Preto e Cinza', phrase:'"Profundidade não é ausência de cor. É presença de alma."', tags:['Preto e Cinza','Realismo','Retrato','Sombreado'], cls:'avc-pv', init:'PV', ig:'pavanistudio', wa:'Ol%C3%A1!%20Gostaria%20de%20agendar%20com%20o%20Pavani.' },
-  { name:'Victor Stoianov', spec:'Colorido · Arte Contemporânea',    badge:'Colorido', phrase:'"A pele é a tela mais viva que existe."', tags:['Colorido','Aquarela','Contemporâneo','Expressionismo'], cls:'avc-vs', init:'VS', ig:'victor_stoianov', wa:'Ol%C3%A1!%20Gostaria%20de%20agendar%20com%20o%20Victor%20Stoianov.' }
+  { name:'Thiago Henrique', spec:'Fine Art · Fine Line · Geometria', badge:'Fine Line', phrase:'"Cada traço é uma decisão. Cada linha, uma intenção."', tags:['Fine Line','Geometria','Fine Art','Editorial'], cls:'avc-th', init:'TH', ig:'th.tatuador' },
+  { name:'Renan Teixeira',  spec:'Tradicional · Cultura Tattoo',     badge:'Tradicional', phrase:'"A autenticidade da tattoo clássica é uma forma de respeito."', tags:['Tradicional','Old School','Cultura Tattoo','Clássico'], cls:'avc-rt', init:'RT', ig:'renanteixeiratattoo' },
+  { name:'Pavani',          spec:'Preto e Cinza · Realismo',         badge:'Preto e Cinza', phrase:'"Profundidade não é ausência de cor. É presença de alma."', tags:['Preto e Cinza','Realismo','Retrato','Sombreado'], cls:'avc-pv', init:'PV', ig:'pavanitattoo_' },
+  { name:'Victor Stoianov', spec:'Colorido · Arte Contemporânea',    badge:'Colorido', phrase:'"A pele é a tela mais viva que existe."', tags:['Colorido','Aquarela','Contemporâneo','Expressionismo'], cls:'avc-vs', init:'VS', ig:'vs9_tattoo' }
 ];
 
 function goToSlide(idx, skipAuto){
@@ -2169,10 +2186,10 @@ function openSheet(artistIdx){
     tagsEl.appendChild(span);
   });
 
-  var wa = document.getElementById('sheetWA');
-  if(wa) wa.href = 'https://wa.me/5500000000000?text=' + a.wa;
-  var ig = document.getElementById('sheetIG');
-  if(ig) ig.href = 'https://www.instagram.com/' + a.ig + '/';
+  var igDm = document.getElementById('sheetWA');
+  if(igDm) igDm.href = 'https://ig.me/m/' + a.ig;
+  var igPf = document.getElementById('sheetIG');
+  if(igPf) igPf.href = 'https://www.instagram.com/' + a.ig + '/';
 
   asheet.style.transform = '';
   asheet.style.transition = '';
